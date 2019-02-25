@@ -1,0 +1,21 @@
+{
+  "id": "numberdyno",
+  "api": {
+    "config_vars_prefix": "NUMBERDYNO",
+    "config_vars": [
+      "NUMBERDYNO_URL"
+    ],
+    "password": "CHANGEME",
+    "sso_salt": "CHANGEME",
+    "regions": [
+      "frankfurt"
+    ],
+    "requires": [],
+    "production": {
+      "base_url": "https://myaddon.com/heroku/resources",
+      "sso_url": "https://myaddon.com/sso/login"
+    },
+    "version": "3"
+  },
+  "name": "NumberDyno"
+}
